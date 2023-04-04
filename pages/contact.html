@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Holly Mathieson Contact</title>
+    <title>Contact me</title>
 </head>
 
 <body>
     <header>
         <h1>Get in touch</h1>
     </header>
+    <section>
+        <p>I'd love to hear from you to discuss my work, and how I might be able to help yours.</p>
+        <form>
+            <fieldset>
+                <legend>Your Details</legend>
+                <label for="name">Your name</label>
+                <input id="name" type="text" placeholder="name">
+
+                <br>
+
+                <label for="email">Your email</label>
+                <input id="email" type="email" placeholder="email">
+            </fieldset>
+            <fieldset>
+                <legend>How can I help you?></legend>
+                <select name="reason">
+                    <option value="web design" selected>Web design</option>
+                    <option value="software engineering">Software engineering</option>
+                    <option value="public speaking">Public speaking</option>
+                    <option value="music">Music</option>
+                    <option value="other">Other</option>
+                </select>
+                
+            </fieldset>
+            <fieldset>
+                <legend>I'm intrigued...Tell me more!</legend>
+                <textarea id="details" placeholder="Provide details"></textarea>
+                
+            </fieldset>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
 </body>
