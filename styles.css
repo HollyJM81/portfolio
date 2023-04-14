@@ -1,0 +1,10 @@
+:root {
+	--high-light: #ff5757;
+	--text-lines: #292f36;
+	--wall-paint: #eff9f0;
+	--low-light: #adbca5;
+}
+
+body {
+	background-color: var(--wall-paint;
+}
