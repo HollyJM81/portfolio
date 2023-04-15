@@ -23,7 +23,8 @@ p {
 	color: var(--text-lines);
 }
 
-#menu-button {
+#menu-button,
+#scroll-arrow {
 	background-color: transparent;
 	border: 0px;
 	height: 5%;
