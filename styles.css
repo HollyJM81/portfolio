@@ -24,7 +24,8 @@ p {
 }
 
 #menu-button,
-#scroll-arrow {
+#scroll-arrow,
+.socials {
 	background-color: transparent;
 	border: 0px;
 	height: 5%;
