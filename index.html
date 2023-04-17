@@ -18,6 +18,7 @@
 					alt="logo"/>
 				</button>
 				<div class="dropdown-content">
+				<a href="#home">HOME</a>
 				<a href="#about-me">ABOUT ME</a>
 				<a href="#my-projects">PROJECTS</a>
 				<a href="#my-tech-stack">TECH STACK</a>
@@ -28,8 +29,7 @@
 		</header>
 
 		<main>
-			<section id="about-me">
-				<h3>About me</h3>
+			<section id="home">
 				<p>
 					My name is Holly, and I'm an orchestral conductor in one time zone, and a web
 					and software developer in another.<br /><br />
@@ -38,6 +38,9 @@
 						kindness.</b
 					>
 				</p>
+				<button id="scroll-arrow"><img src="images/icons/dark scroll arrow.png"></img></button>
+			</section>
+			<section id="about-me">
 				<p>
 					<h4>My Coding Life</h4>In my own projects, I'm interested in the intersection of music and
 					digital technology, and the possibilities for heightened creativity in
@@ -104,6 +107,71 @@
 					<li>Scordatura.io</li>
 					<li>Code snippets/pens</li>
 				</ul>
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+
+
 			</section>
 			<section id="my-tech-stack">
 				<h3>My Tech Stack</h3>
@@ -247,8 +315,6 @@
 		</main>
 
 		<footer>
-			<button id="scroll-arrow"><img src="images/icons/dark scroll arrow.png"></img></button>
-
 			<p>Copyright notice</p>
 		</footer>
 	</body>
